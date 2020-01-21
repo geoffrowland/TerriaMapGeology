@@ -1,0 +1,203 @@
+{
+  "catalog": [
+    {
+      "name": "British Geological Survey (BGS)",
+      "type": "group",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "1:50 000 Detailed Geology",
+          "type": "group",
+          "isOpen": true,
+          "items": [
+            {
+              "name": "Detailed Geology Bedrock",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+              "description": "GBR BGS 1:50 000 scale bedrock geology",
+              "abstract": "GBR BGS 1:50000 scale bedrock geology layer",
+              "layers": "BGS.50k.Bedrock",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              //"minimumLevel": "12",
+              //"clipToRectangle": true,
+              //"rectangle": [-8.344021, 49.846369, 2.697705, 60.866269],
+              "isEnabled": true,
+              "isShown": true,
+              "isLegendVisible": false,
+              "allowFeaturePicking": true,
+              "ignoreUnknownTileErrors": true,
+              "opacity": 0.5,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "xml"
+                }
+              ]
+            },
+            {
+              "name": "1:50 000 Detailed Geology Superficial Deposits",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+              "description": "GBR BGS 1:50000 scale superficial deposits layer",
+              "abstract": "GBR BGS 1:50000 scale superficial deposits layer",
+              "layers": "BGS.50k.Superficial.deposits",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              //"clipToRectangle": true,
+              //"rectangle": [-8.340810, 49.848341, 2.695319, 60.849936],
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "ignoreUnknownTileErrors": true,
+              "opacity": 0.5,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "xml"
+                }
+              ]
+            },
+            {
+              "name": "1:50 000 Detailed Geology Landslips",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+              "description": "GBR BGS 1:50000 scale mass movement deposits layer",
+              "abstract": "GBR BGS 1:50000 scale mass movement deposits layer",
+              "layers": "BGS.50k.Mass.movement",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              "clipToRectangle": true,
+              //"rectangle": [-7.249278, 50.117294, 2.395704, 60.849882],
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "ignoreUnknownTileErrors": true,
+              "opacity": 1.0,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "xml"
+                }
+              ]
+            },
+            {
+              "name": "1:50 000 Detailed Geology Artificial Ground",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+              "description": "GBR BGS 1:50000 scale artificial ground layer",
+              "abstract": "GBR BGS 1:50000 scale artificial ground layer",
+              "layers": "BGS.50k.Artificial.ground",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              //"clipToRectangle": true,
+              //"rectangle": [-6.515392, 50.075129, 2.440972, 58.991403],
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "ignoreUnknownTileErrors": true,
+              "opacity": 1.0
+            },
+            {
+              "name": "1:50 000 Detailed Geology Linear Features",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+              "description": "GBR BGS 1:50000 scale geology linear features",
+              "abstract": "GBR BGS 1:50000 scale geology linear features layer",
+              "layers": "BGS.50k.Linear.features",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              //"clipToRectangle": true,
+              //"rectangle": [-8.323788, 49.875187, 2.412245, 60.849945],
+              "isEnabled": true,
+              "isShown": true,
+              "isLegendVisible": false,
+              "ignoreUnknownTileErrors": true,
+              "opacity": 1.0,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "xml"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1:625 000 Geology",
+          "type": "group",
+          "isOpen": true,
+          "items": [
+            {
+              "name": "1:625 000 Geology Offshore Bedrock",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/Offshore/Products_WMS/MapServer/WmsServer",
+              "description": "GBR BGS 1:625 000 scale offshore bedrock geology",
+              "abstract": "GBR BGS 1:625k scale Offshore Bedrock",
+              "layers": "BGS250k.Bedrock",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "opacity": 0.5,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "html"
+                }
+              ]
+            },
+            {
+              "name": "1:625 000 Geology Offshore Linear",
+              "type": "wms",
+              "url": "https://map.bgs.ac.uk/arcgis/services/Offshore/Products_WMS/MapServer/WmsServer",
+              "description": "GBR BGS 1:625 000 scale offshore linear geology",
+              "abstract": "GBR BGS 1:625k scale Offshore Linear",
+              "layers": "BGS250k.LinearBedrock",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "opacity": 0.5,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "html"
+                }
+              ]
+            },
+            {
+              "name": "1:625 000 Geology Bedrock",
+              "type": "wms",
+              "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
+              "description": "GBR BGS 1:625 000 scale bedrock geology",
+              "abstract": "GBR BGS 1:625k scale Bedrock Lithostratigraphy (including Lithogenic units)",
+              "layers": "GBR_BGS_625k_BLS",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              "isEnabled": true,
+              "isShown": true,
+              "isLegendVisible": false,
+              "opacity": 0.5,
+              "hideLayerAfterMinScaleDenominator": true,
+              "minScaleDenominator": 100000,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "html"
+                }
+              ]
+            },
+            {
+              "name": "1:625 000 Geology Superficial",
+              "type": "wms",
+              "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
+              "description": "GBR BGS 1:625 000 scale surface geology ",
+              "abstract": "GBR BGS 1:625k scale Superficial Lithostratigraphy (including Lithogenic units)",
+              "layers": "GBR_BGS_625k_SLS",
+              "attribution": "Contains British Geological Survey materials © NERC",
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "opacity": 0.5,
+              "hideLayerAfterMinScaleDenominator": true,
+              "minScaleDenominator": 100000,
+              "getFeatureInfoFormats": [
+                {
+                  "type": "html"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }        
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "catalog": [
+    {
+      "name": "Environment Agency",
+      "type": "group",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Hillshade",
+          "type": "group",
+          "isOpen": true,
+          "items": [
+            {
+              "name": "Lyme Regis",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-50CM-Lyme-Regis/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 17,
+              "opacity": 1.0,
+              "rectangle": [
+                -2.99362170950766,
+                50.70539387668016,
+                -2.90770867391704,
+                50.75104589965794
+              ],
+              "isEnabled": true,
+              "isShown": true,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            }            
+          ]
+        }
+      ]
+    }  
+  ]
+}

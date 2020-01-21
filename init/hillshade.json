@@ -1,0 +1,138 @@
+{
+  "catalog": [
+    {
+      "name": "Environment Agency",
+      "type": "group",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Hillshade",
+          "type": "group",
+          "isOpen": true,
+          "items": [
+            {
+              "name": "Grey Tile",
+              "type": "url-template",
+              "url": "/images/GreyTile.png",
+              "hideSource": true,
+              "description": "",
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": true,
+              "rectangle": [-11,49.87,1.8,61.0],
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Tiles 25M",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/EU-DEM/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "minimumLevel": 1,
+              "maximumLevel": 12,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": true,
+              "rectangle": [-11,49.87,1.8,61.0],
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "SurfZone",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/Bathymetry-2M/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 15,
+              "minimumLevel": 8,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "rectangle": [-6.5,49.87,-1.02,51.7], 
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "DTM 2m",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-2M/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 15,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "rectangle": [-6.5,49.87,-1.02,51.7], 
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "DTM 1m Dorset",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Dorset/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 16,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "rectangle": [-3.7,50.5,-1.55,51.26], 
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "DTM 1m Somerset",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Somerset/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 16,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "rectangle": [-4.9,50.75,-1.95,51.53], 
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "DTM 0.5m E",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-50CM-Dorset-East/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 17,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "DTM 0.5m W",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/LIDAR-DTM-50CM-Dorset-West/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 17,
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            }            
+          ]
+        }
+      ]
+    }  
+  ]
+}

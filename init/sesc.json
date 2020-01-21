@@ -1,0 +1,16 @@
+{
+  "homeCamera": {
+    "north": 51.22,
+    "east": -2.48,
+    "south": 51.20,
+    "west": -2.50
+  },
+  "initialCamera": {
+    "north": 51.22,
+    "east": -2.48,
+    "south": 51.20,
+    "west": -2.50
+  },
+  "baseMapName":"Bing Maps Aerial",
+  "viewerMode":"3d"
+}
