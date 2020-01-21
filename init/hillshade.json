@@ -13,7 +13,7 @@
             {
               "name": "Grey Tile",
               "type": "url-template",
-              "url": "/images/GreyTile.png",
+              "url": "GreyTile.png",
               "hideSource": true,
               "description": "",
               "opacity": 1.0,
