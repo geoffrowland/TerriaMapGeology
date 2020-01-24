@@ -50,6 +50,16 @@
             "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
+        
+        // True to create a separate explorer panel tab for each top-level catalog group to list its items in.
+        tabbedCatalog: true,
+
+        // True to use Cesium World Terrain from Cesium ion. False to use terrain from the URL specified with the "cesiumTerrainUrl" property.
+        useCesiumIonTerrain: true,
+
+        // The access token to use with Cesium ion.
+        cesiumIonAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ODJiNTI2NC0yNDUzLTRlZWMtOWQ3OS00NDhkZWQ5ZjBjYTYiLCJpZCI6NTgsImlhdCI6MTQ4NzYyNjM0N30.w1o6-XfyCqrGJtj8X4ci4z8zvtFxETG562RORr35O_s",
+
         // Shown when things go wrong.
         supportEmail: "help@example.com",
         // You probably shouldn't change this.
