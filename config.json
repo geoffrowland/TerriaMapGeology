@@ -3,7 +3,7 @@
     initializationUrls: [
         "sesc",
         "hillshade",
-        "lymeregis",
+        // "lymeregis",
         "bgs"
     ],
     parameters: {
