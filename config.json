@@ -1,5 +1,7 @@
 {
+    /* 
     // Names of init files (in wwwroot/init), without the .json extension, to load by default
+    */
     initializationUrls: [
         "sesc",
         "hillshade",
@@ -39,7 +41,8 @@
         developerAttribution: {
             text: "Your organisation",
             link: "http://www.example.com"
-        },*/
+        },
+        */
         // This is used in various text messages. You should also set <title> in index.html
         appName: "Terria Map",
 
