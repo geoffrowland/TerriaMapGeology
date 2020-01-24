@@ -62,7 +62,7 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Hillshade 2m,
+              "name": "Hillshade 2m",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-2M/{z}/{x}/{reverseY}.png",
               "hideSource": true,
