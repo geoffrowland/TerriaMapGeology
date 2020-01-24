@@ -164,7 +164,7 @@
               "layers": "GBR_BGS_625k_BLS",
               "attribution": "Contains British Geological Survey materials © NERC",
               "isEnabled": true,
-              "isShown": true,
+              "isShown": false,
               "isLegendVisible": false,
               "opacity": 0.5,
               "hideLayerAfterMinScaleDenominator": true,
