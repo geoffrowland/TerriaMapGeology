@@ -11,11 +11,11 @@
           "isOpen": true,
           "items": [
             {
-              "name": "Grey Tile",
+              "name": "Grey Background",
               "type": "url-template",
               "url": "GreyTile.png",
               "hideSource": true,
-              "description": "Background for Hillshade",
+              "description": "Grey Background for Hillshade",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -26,12 +26,14 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Tiles 25M",
+              "name": "Hillshade 25m",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/EU-DEM/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "minimumLevel": 1,
               "maximumLevel": 12,
+              "description": "Hillshade for the UK and surounding area derived from the EU Digital Elevation Model (EU-DEM) v1.1 at 25m resolution",
+              "attribution": "European Environment Agency (EEA) under the framework of the Copernicus programme",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -42,12 +44,14 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "SurfZone",
+              "name": "Hillshade 2m Coastal",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/Bathymetry-2M/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 15,
               "minimumLevel": 8,
+              "description": "Coastal Hillshade for South West England derived from SurfZone LIDAR and Bathymetry at 2m resolution",
+              "attribution": "",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -58,11 +62,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "DTM 2m",
+              "name": "Hillshade 2m,
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-2M/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 15,
+              "description": "Hillshade for South West England derived from LIDAR DTM at 2m resolution",
+              "attribution": "",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -73,11 +79,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "DTM 1m Dorset",
+              "name": "Hillshade 1m Dorset",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Dorset/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 16,
+              "description": "Hillshade for Dorset, and surrounding area, derived from LIDAR DTM at 1m resolution",
+              "attribution": "",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -88,11 +96,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "DTM 1m Somerset",
+              "name": "Hillshade 1m Somerset",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Somerset/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 16,
+              "description": "Hillshade for Somerset, and surrounding area, derived from LIDAR DTM at 1m resolution",
+              "attribution": "",
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
@@ -103,11 +113,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "DTM 0.5m E",
+              "name": "Hillshade 0.5m East Dorset",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-50CM-Dorset-East/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 17,
+              "description": "Hillshade for East Dorset, derived from LIDAR DTM at 0.5m resolution",
+              "attribution": "",            
               "opacity": 1.0,
               "isEnabled": false,
               "isShown": false,
@@ -117,11 +129,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "DTM 0.5m W",
+              "name": "Hillshade 0.5m West Dorset",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/LIDAR-DTM-50CM-Dorset-West/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 17,
+              "description": "Hillshade for West Dorset, derived from LIDAR DTM at 0.5m resolution",
+              "attribution": "",
               "opacity": 1.0,
               "isEnabled": false,
               "isShown": false,
