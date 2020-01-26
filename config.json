@@ -2,6 +2,7 @@
     initializationUrls: [
         "sesc",
         "hillshade",
+        "nls",
         "bgs"
     ],
     parameters: {
