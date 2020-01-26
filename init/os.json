@@ -1,0 +1,180 @@
+{
+  "catalog": [
+    {
+      "name": "NLS",
+      "type": "group",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Historical Ordnance Survey",
+          "type": "group",
+          "isOpen": false,
+          "items": [
+            {
+              "name": "OS Opendata",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/maps/opendata/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Ordnance Survey Opendata",
+              "attribution" : {
+                  "text" : "Contains OS data © Crown copyright and database right (2010)",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "parameters": {
+                "FORMAT": "image/png",
+                "TRANSPARENT": "true",
+                "VERSION": "1.1.1"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Missing tiles OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata3/os/25_inch/holes_england/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Missing tiles from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "parameters": {
+                "FORMAT": "image/png",
+                "TRANSPARENT": "true",
+                "VERSION": "1.1.1"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            /*{
+              "name": "Gap Fill 2 OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "https://geo.nls.uk/mapdata2/os/25_inch/holes2/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Missing tiles from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "parameters": {
+                "FORMAT": "image/png",
+                "TRANSPARENT": "true",
+                "VERSION": "1.1.1"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },*/
+            {
+              "name": "Devon OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata2/os/25_inch/devon/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Devon sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Dorset OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata2/os/25_inch/dorset/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Dorset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "rectangle": [-3.0,50.5,-1.8,51.1],
+              "minimumLevel": 2,
+              "maximumLevel": 18,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Hampshire OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata2/os/25_inch/hampshire/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Hampshre sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Somerset OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata3/os/25_inch/somerset/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Somerset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Wiltshire OS 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata2/os/25_inch/wiltshire/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Wiltshire sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            }
+          ]
+	    }
+      ]
+    }  
+  ]
+}
