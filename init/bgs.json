@@ -109,7 +109,7 @@
               "isLegendVisible": false,
               "ignoreUnknownTileErrors": true,
               "opacity": 1.0,
-              "featureInfoTemplate": "Name: {{LEX_RCS_D}}<br />Time: {{MAX_TIME_D}} to {{MIN_TIME_D}}<br />Period: {{MAX_PERIOD}} to {{MIN_PERIOD}}<br />Description: {{TYPE_D}}, {{BROAD_D}}<br />Environment: {{ENVIRONMENT_D}}",
+              "featureInfoTemplate": "Feature: {{Feature_D}}<br />Sheet: {{SHEET}}<br />Terms of use: {{TERMS_OF_USE}}",
               "getFeatureInfoFormats": [
                 {
                   "type": "xml"
