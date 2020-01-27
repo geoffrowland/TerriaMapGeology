@@ -109,7 +109,7 @@
               "isLegendVisible": false,
               "ignoreUnknownTileErrors": true,
               "opacity": 1.0,
-              "featureInfoTemplate": "Feature: {{Feature_D}}<br />Sheet: {{SHEET}}<br />Terms of use: {{TERMS_OF_USE}}",
+              "featureInfoTemplate": "Feature: {{FEATURE_D}}<br />Sheet: {{SHEET}}<br />Terms of use: {{TERMS_OF_USE}}",
               "getFeatureInfoFormats": [
                 {
                   "type": "xml"
