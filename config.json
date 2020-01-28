@@ -3,6 +3,7 @@
         "sesc",
         "hillshade",
         "nls",
+        "bing",
         "bgs"
     ],
     parameters: {

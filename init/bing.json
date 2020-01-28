@@ -1,0 +1,71 @@
+{
+  "catalog": [
+    {
+      "name": "Bing Maps",
+      "type": "group",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Road",
+          "type": "bing-maps",
+          "url": "https://dev.virtualearth.net",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "ROAD",
+          "description": "...",
+          "opacity": 1.0,
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+        },
+        {
+          "name": "Aerial with Labels",
+          "type": "bing-maps",
+          "url": "https://dev.virtualearth.net",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "AERIALWITHLABELS",
+          "description": "...",
+          "opacity": 1.0,
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+        },
+        {
+          "name": "Aerial",
+          "type": "bing-maps",
+          "url": "https://dev.virtualearth.net",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "AERIAL",
+          "description": "...",
+          "opacity": 1.0,
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+        },
+        {
+          "name": "Collins Bartholomew Road",
+          "type": "bing-maps",
+          "url": "https://dev.virtualearth.net",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "COLLINSBART",
+          "description": "...",
+          "opacity": 1.0,
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+        },
+        {
+          "name": "Ordnance Survey",
+          "type": "bing-maps",
+          "url": "https://dev.virtualearth.net",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "ORDNANCESURVEY",
+          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+          "opacity": 0.5,
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false
+        }
+      ]
+    }
+  ]
+}
