@@ -67,7 +67,7 @@
                   "link" : "http://maps.nls.uk/index.html"
               },
               "opacity": 1.0,
-              "isEnabled": true,
+              "isEnabled": false,
               "isShown": false,
               "isLegendVisible": false,
               "treat403AsError": false,
@@ -85,7 +85,7 @@
                   "link" : "http://maps.nls.uk/index.html"
               },
               "opacity": 1.0,
-              "isEnabled": true,
+              "isEnabled": false,
               "isShown": false,
               "isLegendVisible": false,
               "treat403AsError": false,
@@ -103,6 +103,24 @@
                   "link" : "http://maps.nls.uk/index.html"
               },
               "opacity": 1.0,
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "Somerset OS 2nd Edition 25 inch 1892-1905",
+              "type": "url-template",
+              "url": "http://geo.nls.uk/mapdata3/os/25_inch/somerset/{z}/{x}/{y}.png",
+              "hideSource": true,
+              "description": "Somerset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
+              "attribution" : {
+                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "link" : "http://maps.nls.uk/index.html"
+              },
+              "opacity": 1.0,
               "isEnabled": true,
               "isShown": false,
               "isLegendVisible": false,
@@ -111,13 +129,13 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Somerset OS 25 inch 1892-1905",
+              "name": "Somerset OS 1st Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata3/os/25_inch/somerset/{z}/{x}/{y}.png",
+              "url": "https://geo.nls.uk/mapdata3/os/25_inch/somerset1/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Somerset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
-                  "text" : "Reproduced with the permission of the National Library of Scotland",
+                  "text" : "Reproduced with the permission of the <a href='https://www.bl.uk' target='_blank'>The British Library</a> and <a href='https://maps.nls.uk/os/25inch-england-and-wales/index.html' target='_blank'>National Library of Scotland</a>",
                   "link" : "http://maps.nls.uk/index.html"
               },
               "opacity": 1.0,
@@ -139,7 +157,7 @@
                   "link" : "http://maps.nls.uk/index.html"
               },
               "opacity": 1.0,
-              "isEnabled": true,
+              "isEnabled": false,
               "isShown": false,
               "isLegendVisible": false,
               "treat403AsError": false,
