@@ -79,7 +79,7 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Hillshade 1m Dorset",
+              "name": "Hillshade 1m Dorset Somerset",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/Hillshade-1m-Dorset-Somerset/{z}/{x}/{reverseY}.png",
               "hideSource": true,
@@ -96,9 +96,9 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Hillshade 1m Somerset",
+              "name": "Hillshade 1m Dorset Somerset East",
               "type": "url-template",
-              "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Somerset/{z}/{x}/{reverseY}.png",
+              "url": "https://geoffrowland.github.io/Hillshade-1m-Dorset-Somerset-East/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 16,
               "description": "Hillshade for Somerset, and surrounding area, derived from LIDAR DTM at 1m resolution",
