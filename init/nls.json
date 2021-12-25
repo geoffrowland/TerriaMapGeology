@@ -36,7 +36,7 @@
             {
               "name": "Missing tiles OS 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata3/os/25_inch/holes_england/{z}/{x}/{y}.png",
+              "url": "https://geo.nls.uk/mapdata3/os/25_inch_holes_england/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Missing tiles from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
