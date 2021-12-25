@@ -28,7 +28,7 @@
             {
               "name": "Hillshade 25m",
               "type": "url-template",
-              "url": "https://geoffrowland.github.io/EU-DEM/{z}/{x}/{reverseY}.png",
+              "url": "https://geoffrowland.github.io/Hillshade-25m/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "minimumLevel": 1,
               "maximumLevel": 12,
@@ -46,7 +46,7 @@
             {
               "name": "Hillshade 2m Coastal",
               "type": "url-template",
-              "url": "https://geoffrowland.github.io/Bathymetry-2M/{z}/{x}/{reverseY}.png",
+              "url": "https://geoffrowland.github.io/Hillshade-2m-Coastal/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 15,
               "minimumLevel": 8,
@@ -64,7 +64,7 @@
             {
               "name": "Hillshade 2m",
               "type": "url-template",
-              "url": "https://geoffrowland.github.io/LIDAR-DTM-2M/{z}/{x}/{reverseY}.png",
+              "url": "https://geoffrowland.github.io/Hillshade-2m/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 15,
               "description": "Hillshade for South West England derived from LIDAR DTM at 2m resolution",
@@ -81,7 +81,7 @@
             {
               "name": "Hillshade 1m Dorset",
               "type": "url-template",
-              "url": "https://geoffrowland.github.io/LIDAR-DTM-1M-Dorset/{z}/{x}/{reverseY}.png",
+              "url": "https://geoffrowland.github.io/Hillshade-1m-Dorset-Somerset/{z}/{x}/{reverseY}.png",
               "hideSource": true,
               "maximumLevel": 16,
               "description": "Hillshade for Dorset, and surrounding area, derived from LIDAR DTM at 1m resolution",
