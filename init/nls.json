@@ -59,7 +59,7 @@
             {
               "name": "Devon OS 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata2/os/25_inch/devon/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon2nd/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Devon sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
@@ -75,9 +75,9 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Dorset OS 25 inch 1892-1905",
+              "name": "Dorset OS 2nd Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata2/os/25_inch/dorset/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/dorset/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Dorset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
@@ -93,9 +93,9 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Hampshire OS 25 inch 1892-1905",
+              "name": "Hampshire OS 2nd Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata2/os/25_inch/hampshire/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch//hampshire/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Hampshre sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
@@ -113,7 +113,7 @@
             {
               "name": "Somerset OS 2nd Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata3/os/25_inch/somerset/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Somerset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
@@ -131,7 +131,7 @@
             {
               "name": "Somerset OS 1st Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "https://geo.nls.uk/mapdata3/os/25_inch/somerset1/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Somerset sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
@@ -147,9 +147,9 @@
               "ignoreUnknownTileErrors": true
             },
             {
-              "name": "Wiltshire OS 25 inch 1892-1905",
+              "name": "Wiltshire OS 2nd Edition 25 inch 1892-1905",
               "type": "url-template",
-              "url": "http://geo.nls.uk/mapdata2/os/25_inch/wiltshire/{z}/{x}/{y}.png",
+              "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/wiltshire2nd/{z}/{x}/{y}.png",
               "hideSource": true,
               "description": "Wiltshire sheet from Great Britain Ordnance Survey 25 Inch, 1892-1905",
               "attribution" : {
