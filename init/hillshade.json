@@ -89,7 +89,7 @@
               "opacity": 1.0,
               "isEnabled": true,
               "isShown": true,
-              "rectangle": [-3.515625, 50.345460, -2.812500, 51.944265],
+              "rectangle": [-3.515624, 50.345460, -2.812500, 51.944265],
               "isLegendVisible": false,
               "treat403AsError": false,
               "treat404AsError": false,
