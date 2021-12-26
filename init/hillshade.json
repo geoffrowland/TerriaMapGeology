@@ -44,6 +44,23 @@
               "ignoreUnknownTileErrors": true
             },
             {
+              "name": "Hillshade 5m",
+              "type": "url-template",
+              "url": "https://geoffrowland.github.io/Hillshade-5m/{z}/{x}/{reverseY}.png",
+              "hideSource": true,
+              "maximumLevel": 15,
+              "description": "Hillshade for South West England derived from OS Terrain 5",
+              "attribution": "© Crown copyright and database rights 2020 Ordnance Survey (100025252)",
+              "opacity": 1.0,
+              "isEnabled": true,
+              "isShown": true,
+              "rectangle": [-10.722656, 49.859235, 5.625000, 60.930432],
+              "isLegendVisible": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "ignoreUnknownTileErrors": true
+            },
+            {
               "name": "Hillshade 2m Coast",
               "type": "url-template",
               "url": "https://geoffrowland.github.io/Hillshade-2m-Coast/{z}/{x}/{reverseY}.png",
