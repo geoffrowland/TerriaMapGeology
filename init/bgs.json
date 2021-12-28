@@ -162,7 +162,7 @@
             {
               "name": "Geology Bedrock",
               "type": "wms",
-              "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
+              "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
               "description": "GBR BGS 1:625 000 scale bedrock geology",
               "abstract": "GBR BGS 1:625k scale Bedrock Lithostratigraphy (including Lithogenic units)",
               "layers": "GBR_BGS_625k_BLS",
@@ -182,7 +182,7 @@
             {
               "name": "Geology Superficial",
               "type": "wms",
-              "url": "http://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
+              "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms",
               "description": "GBR BGS 1:625 000 scale surface geology ",
               "abstract": "GBR BGS 1:625k scale Superficial Lithostratigraphy (including Lithogenic units)",
               "layers": "GBR_BGS_625k_SLS",
